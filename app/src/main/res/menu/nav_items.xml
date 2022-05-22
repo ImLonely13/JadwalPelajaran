@@ -9,17 +9,17 @@
 				
 				android:id="@+id/nav_walikelas" 
 				android:icon="@drawable/ic_phone"
-				android:title="Ahsin S.Pdi (Wali Kelas)" />
+				android:title="Nurlela, S.Pd (Wali Kelas)" />
 			<item 
 				
 				android:id="@+id/nav_ketuakelas" 
 				android:icon="@drawable/ic_phone"
-				android:title="Bagas Afrizal (Ketua Kelas)" />
+				android:title="Rifqy Aziz Muhammad (Ketua Kelas)" />
 			<item 
 				 
 				android:id="@+id/nav_sekolah"
 				android:icon="@drawable/ic_phone"
-				android:title="SMK Yuppentek 2" />
+				android:title="SMAN 11 Tangsel" />
 		</menu>
 	</item>
 	<item android:title="Lain-lain">

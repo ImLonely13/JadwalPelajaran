@@ -53,7 +53,6 @@ import com.rasmad.ibnu.tabs.Tab2;
 import com.rasmad.ibnu.tabs.Tab3;
 import com.rasmad.ibnu.tabs.Tab4;
 import com.rasmad.ibnu.tabs.Tab5;
-import com.rasmad.ibnu.tabs.Tab6;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -76,11 +75,11 @@ public class MainActivity extends AppCompatActivity
 	static final int STORAGE_PERMISSION_CODE = 3;
 	
 	// **** DATA APLIKASI **** \\
-	private String no_walas = "+6281385871440"; //Nomor telepon wali kelas
-	private String no_km = "+6283813802564"; //Nomor telepon ketua kelas
-	private String no_sekolah = "+62215980876"; //Nomor telepon sekolah
-	private String nama_sekolah = "SMK Yuppentek 2"; //Nama sekolah
-	private String nama_kelas = "XI RPL"; //Nama kelas
+        private String no_walas = "+6287808873442"; //Nomor telepon wali kelas
+        private String no_km = "+6285714411799"; //Nomor telepon ketua kelas
+	private String no_sekolah = "(021)74866417"; //Nomor telepon sekolah
+	private String nama_sekolah = "SMAN 11 Tangsel"; //Nama sekolah
+	private String nama_kelas = "XI IPS 4"; //Nama kelas
 	
 	/****** UNTUK MENGUBAH NAMA WALAS, KM, SEKOLAH SILAHKAN KE
 			FOLDER res/menu/nav_items.xml UBAH DI FILE INI ******/
@@ -189,7 +188,6 @@ public class MainActivity extends AppCompatActivity
 		adapter.addFragment(new Tab3(), "Rabu");
 		adapter.addFragment(new Tab4(), "Kamis");
 		adapter.addFragment(new Tab5(), "Jum'at");
-		adapter.addFragment(new Tab6(), "Sabtu");
         viewPager.setAdapter(adapter);
     }
 

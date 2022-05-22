@@ -41,12 +41,10 @@ public class Tab1 extends Fragment {
 
 		 Jika kurang jelas bisa liat di bawah ini
 		 */
-		itemJadwal.add(new ItemJadwal(ItemJadwal.MAPEL_MODEL, "","Pemrograman Desktop", "07:00 - 11:50", "Fery Updi, S.Kom, M.Kom", "WS. RPL", "Wearpack"));
-		itemJadwal.add(new ItemJadwal(ItemJadwal.ISTIRAHAT_MODEL, "11:50 - 12:30 (40 Menit)", "", "", "", "", ""));
-		itemJadwal.add(new ItemJadwal(ItemJadwal.MAPEL_MODEL, "", "Bahasa Indonesia", "12:30 - 14:00", "M.S Endang Roestini, S.Pd", "R3.09", "Putih Abu - abu"));
-		itemJadwal.add(new ItemJadwal(ItemJadwal.MAPEL_MODEL, "", "Bahasa Inggris", "14:00 - 15:30", "Risty Paradilla, S.Pd", "R3.09", "Putih Abu - abu"));
-		itemJadwal.add(new ItemJadwal(ItemJadwal.ISTIRAHAT_MODEL,"15:30 - 15:45 (15 Menit)", "", "", "", "", ""));
-		itemJadwal.add(new ItemJadwal(ItemJadwal.MAPEL_MODEL, "", "Sejarah Indonesia", "15:45 - 17:15", "M. Pairan, S.Pd", "R3.09", "Putih Abu - abu"));
+		itemJadwal.add(new ItemJadwal(ItemJadwal.MAPEL_MODEL, "","Upacara / Pembinaan Wali Kelas", "07:30 - 08:00"));
+                itemJadwal.add(new ItemJadwal(ItemJadwal.MAPEL_MODEL, "", "Sosiologi", "08:00 - 10:15", "Nurlela, S.Pd")); 
+		itemJadwal.add(new ItemJadwal(ItemJadwal.ISTIRAHAT_MODEL, "10:15 - 10:30 (15 Menit)", "", "", "", "", ""));
+		itemJadwal.add(new ItemJadwal(ItemJadwal.MAPEL_MODEL, "", "Bahasa Indonesia", "10:30 - 12:45", "Eny Sulistyowati S.Pd"));
 		return itemJadwal;
 	}
 
